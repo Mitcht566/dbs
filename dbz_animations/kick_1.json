@@ -1,0 +1,72 @@
+{
+  "animation": {
+    "length": 0.44,
+    "loop": false,
+    "bones": {
+      "right_leg": {
+        "rotation": [
+          {
+            "time": 0.0,
+            "angle": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 0.1,
+            "angle": [
+              28,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 0.25,
+            "angle": [
+              -73,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 0.4,
+            "angle": [
+              -53,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 0.5,
+            "angle": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      "body": {
+        "rotation": [
+          {
+            "time": 0.1,
+            "angle": [
+              -6,
+              0,
+              0
+            ]
+          },
+          {
+            "time": 0.4,
+            "angle": [
+              4,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

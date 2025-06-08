@@ -1,0 +1,40 @@
+{
+  "animation": {
+    "length": 2.5,
+    "loop": false,
+    "bones": {
+      "body": {
+        "rotation": [
+          { "time": 0.0, "angle": [0, 0, 0] },
+          { "time": 0.5, "angle": [-15, 0, 0] },
+          { "time": 1.5, "angle": [25, 0, 0] },
+          { "time": 2.0, "angle": [0, 0, 0] }
+        ]
+      },
+      "left_arm": {
+        "rotation": [
+          { "time": 0.0, "angle": [10, 0, -10] },
+          { "time": 0.5, "angle": [45, 0, -30] },
+          { "time": 1.5, "angle": [-20, 0, -10] },
+          { "time": 2.0, "angle": [0, 0, 0] }
+        ]
+      },
+      "right_arm": {
+        "rotation": [
+          { "time": 0.0, "angle": [10, 0, 10] },
+          { "time": 0.5, "angle": [45, 0, 30] },
+          { "time": 1.5, "angle": [-20, 0, 10] },
+          { "time": 2.0, "angle": [0, 0, 0] }
+        ]
+      },
+      "head": {
+        "rotation": [
+          { "time": 0.0, "angle": [-5, 0, 0] },
+          { "time": 0.5, "angle": [-10, 0, 0] },
+          { "time": 1.5, "angle": [10, 0, 0] },
+          { "time": 2.0, "angle": [0, 0, 0] }
+        ]
+      }
+    }
+  }
+}
