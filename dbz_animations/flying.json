@@ -1,0 +1,64 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.player.flying_stop_resume": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "rotation": [
+            { "time": 0.0, "vector": [15, 0, 0] },    // normal fly
+            { "time": 0.25, "vector": [5, 0, 0] },     // deceleration
+            { "time": 0.35, "vector": [-5, 0, 0] },    // stop (brief stall)
+            { "time": 0.5, "vector": [10, 0, 0] },     // re-lean
+            { "time": 0.7, "vector": [15, 0, 0] }      // full speed again
+          ]
+        },
+        "left_arm": {
+          "rotation": [
+            { "time": 0.0, "vector": [-45, 0, -10] },
+            { "time": 0.25, "vector": [-20, 0, -5] },
+            { "time": 0.35, "vector": [0, 0, 0] },
+            { "time": 0.5, "vector": [-20, 0, -5] },
+            { "time": 0.7, "vector": [-45, 0, -10] }
+          ]
+        },
+        "right_arm": {
+          "rotation": [
+            { "time": 0.0, "vector": [-45, 0, 10] },
+            { "time": 0.25, "vector": [-20, 0, 5] },
+            { "time": 0.35, "vector": [0, 0, 0] },
+            { "time": 0.5, "vector": [-20, 0, 5] },
+            { "time": 0.7, "vector": [-45, 0, 10] }
+          ]
+        },
+        "left_leg": {
+          "rotation": [
+            { "time": 0.0, "vector": [-10, 0, 0] },
+            { "time": 0.25, "vector": [-5, 0, 0] },
+            { "time": 0.35, "vector": [10, 0, 0] },
+            { "time": 0.5, "vector": [-5, 0, 0] },
+            { "time": 0.7, "vector": [-10, 0, 0] }
+          ]
+        },
+        "right_leg": {
+          "rotation": [
+            { "time": 0.0, "vector": [-10, 0, 0] },
+            { "time": 0.25, "vector": [-5, 0, 0] },
+            { "time": 0.35, "vector": [10, 0, 0] },
+            { "time": 0.5, "vector": [-5, 0, 0] },
+            { "time": 0.7, "vector": [-10, 0, 0] }
+          ]
+        },
+        "head": {
+          "rotation": [
+            { "time": 0.0, "vector": [-10, 0, 0] },
+            { "time": 0.25, "vector": [-5, 0, 0] },
+            { "time": 0.35, "vector": [0, 0, 0] },
+            { "time": 0.5, "vector": [-5, 0, 0] },
+            { "time": 0.7, "vector": [-10, 0, 0] }
+          ]
+        }
+      }
+    }
+  }
+}
