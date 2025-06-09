@@ -1,0 +1,38 @@
+{
+    "format_version": "1.8.0",
+    "animations": {
+        "animation.aura_ssj2.pulse": {
+            "loop": true,
+            "bones": {
+                "aura": {
+                    "scale": [
+                        {
+                            "time": 0,
+                            "scale": [
+                                1,
+                                1,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "scale": [
+                                1.2,
+                                1.2,
+                                1.2
+                            ]
+                        },
+                        {
+                            "time": 1.0,
+                            "scale": [
+                                1,
+                                1,
+                                1
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
